@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+span {
+    font-size: 14px;
+}
+
+.top-row {
+    height: 15px;
+    width: 100%;
+    background: #000000;
+}
+
+.divider {
+    margin: 30px 0;
+    height: 3px;
+    background: #92acac;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-text {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.portrait {
+    width: 150px;
+    height: 150px;
+}
+
+.portrait img {
+    width: 150px;
+    height: 150px;
+    aspect-ratio: 1;
+    image-rendering: optimizeQuality;
+    image-resolution: from-image;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+.data-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-0 {
+    width: 70%;
+}
+
+.header-3 {
+    color: #6f6f6f;
+}
+
+
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-2.left {
+    width: 30%
+}
+
+.container-2.right {
+    width: 70%
+}
+
+.container-3 {
+    display: flex;
+    flex-direction: column;
+}
