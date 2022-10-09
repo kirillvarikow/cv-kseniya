@@ -63,7 +63,7 @@ a {
 }
 
 .container-0 {
-    width: 70%;
+    width: 45%;
 }
 
 .header-3 {
@@ -102,4 +102,19 @@ a {
 .container-3 {
     display: flex;
     flex-direction: column;
+}
+
+.mt {
+    margin-top: 150px;
+}
+
+.datum {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.written {
+    border-top: 1px solid black;
+    width: 250px;
 }
