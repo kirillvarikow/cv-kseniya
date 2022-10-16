@@ -19,9 +19,9 @@ span {
 }
 
 .divider {
-    margin: 10px 0;
-    height: 3px;
-    background: #92acac;
+    margin: 20px 0;
+    /*height: 3px;*/
+    /*background: #92acac;*/
 }
 
 .main-container {
@@ -36,20 +36,20 @@ span {
 }
 
 .portrait {
-    width: 130px;
-    height: 180px;
+    width: 200px;
+    height: 210px;
     position: absolute;
-    right: 0px;
-    top: -28px;
+    right: 85px;
+    top: -25px;
 }
 
 .portrait img {
-    width: 130px;
-    height: 180px;
-    aspect-ratio: 1;
+    width: 200px;
+    height: 210px;
+    aspect-ratio: 0.88;
     image-rendering: optimizeQuality;
     image-resolution: from-image;
-    /*border: 1px solid black;*/
+    /*border: 1px solid #7d7d7d;*/
 }
 
 a {
@@ -67,15 +67,15 @@ a {
 }
 
 .header-3 {
-    color: #6f6f6f;
+    color: #000000;
     margin: 0 0 5px 0;
     font-size: 20px;
 }
 
 
 .header-1 {
-    color: #6f6f6f;
-    margin: 0 0 5px 0;
+    color: #000000;
+    margin: 20px 0 25px 0;
     font-size: 30px;
 }
 
@@ -117,4 +117,10 @@ a {
 .written {
     border-top: 1px solid black;
     width: 250px;
+}
+
+.header-underline {
+    height: 1px;
+    background: #000000;
+    width: 255px;
 }
