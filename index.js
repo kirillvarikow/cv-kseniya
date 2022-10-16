@@ -4,7 +4,8 @@ const fileUrl = require('file-url');
 (async() => {
 	const browser = await puppeteer.launch();
 	const page = await browser.newPage();
-	await page.goto(fileUrl('index.html'));
+	await page.goto('https://kirylvarykau.github.io/cv-kseniya/');
+	
 	await page.pdf({
 		path: 'test.pdf',
 		format: 'A4',
